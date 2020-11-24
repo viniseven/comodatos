@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #143749;  
+}
+
+#content{
+    background-color: #fff;
+    width: 30%;
+    height: 10%;
+    margin-top: 15px;
+    border-radius: 12px;
+    display: flex;
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-control{
+    width: 300px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover{
+    background-color:  #143749 ;
+}
+.btn-primary{
+    width: 100px;
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 922px) {
+  #row-buttons {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+#row{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#row-buttons{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+@media only screen and (max-width: 1194px) {
+    .form-control {
+      width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 603px) {
+    #title-form {
+      font-size: 20px;
+    }
+  }
+
+
+/*MEDIA QUERIES DO CONTAINER */
+  
+@media only screen and (max-width: 1053px) {
+    #content {
+      height: 75%;
+    }
+  }
+
+  
+  
+@media only screen and (max-width: 923px) {
+  #content {
+   width: 400px;
+   margin-top: 10%;
+  }
+}
+   
+
+  #column-buttons{
+   margin: auto;
+   display: flex;
+   padding-left: -20px;
+   padding-right: -20px;
+   width: 30px;
+  }
+
+
+  #info-password{
+    font-size: 10px;
+    padding-top: 0px;
+  }
+
+  
+
+.alert{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+}
+   
+@media only screen and (max-width: 782px) {
+  .alert{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+  }
+}
